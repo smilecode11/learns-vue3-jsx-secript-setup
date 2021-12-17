@@ -13,6 +13,8 @@
   <ScopedSlotTemplate />
   <hr />
   <ScopedSlotJsx />
+  <hr />
+  <ScriptSetup />
 </template>
 
 <script>
@@ -23,6 +25,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import JsxTabsDemo from "./components/tabs-jsx/index.vue";
 import ScopedSlotTemplate from "./components/scoped-slot-template/Demo.vue";
 import ScopedSlotJsx from "./components/scoped-slot-jsx/Demo";
+import ScriptSetup from './components/script-setup/Dome.vue'
 
 export default {
   components: {
@@ -33,6 +36,7 @@ export default {
     JsxTabsDemo,
     ScopedSlotTemplate,
     ScopedSlotJsx,
+    ScriptSetup
   },
 };
 </script>

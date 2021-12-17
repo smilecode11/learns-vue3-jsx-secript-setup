@@ -1,10 +1,10 @@
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, onMounted } from "vue";
 
 export default defineComponent({
     props: ['render'],
     setup(props, context) {
         // 获取 slots vnode
-        console.log('Child slots', context.slots.default())
+        // const childs = context.slots.default();
 
         const msg = ref("Hello, template scopedSlot");
 
